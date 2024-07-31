@@ -1,5 +1,4 @@
-variable "test" {
+variable "content" {
   type = string
   default = "test"
-  diawidai = "dlawdlawl"
 }

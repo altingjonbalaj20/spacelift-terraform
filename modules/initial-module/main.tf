@@ -1,4 +1,4 @@
-resource "archive_file" "test" {
-  output_path = "test"
-  source_content = var.test
+resource "local_file" "test" {
+  filename = "filename.txt"
+  content  = var.content
 }
