@@ -1,23 +1,31 @@
 module "test" {
-  source = "../modules/initial-module"
+  source  = "spacelift.io/llama/spacelift-terraform/default"
+  version = "0.1.0"
+
   
   content = "hello"
 }
 
 module "test2" {
-  source = "../modules/initial-module"
+  source  = "spacelift.io/llama/spacelift-terraform/default"
+  version = "0.1.0"
+
   
   content = "hello"
 }
 
 module "test3" {
-  source = "../modules/initial-module"
+  source  = "spacelift.io/llama/spacelift-terraform/default"
+  version = "0.1.0"
+
   
   content = "hello"
 }
 
 module "test4" {
-  source = "../modules/initial-module"
+  source  = "spacelift.io/llama/spacelift-terraform/default"
+  version = "0.1.0"
+
   
   content = "hello"
 }
