@@ -10,6 +10,8 @@ module "test6" {
   source  = "spacelift.io/llama/spacelift-terraform/default"
   version = "0.1.0"
 
+  dwjajdaj = "dwkakdkakd"
+
   
   content = "hello"
 }
