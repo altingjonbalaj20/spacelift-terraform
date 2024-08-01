@@ -1,11 +1,3 @@
-module "spacelift-terraform" {
-  source  = "spacelift.io/llama/spacelift-terraform/default"
-  version = "0.1.0"
-
-  # Optional inputs 
-  # content = string
-}
-
 module "test" {
   source  = "spacelift.io/llama/spacelift-terraform/default"
   version = "0.1.0"
