@@ -6,6 +6,14 @@ module "test" {
   content = "hello"
 }
 
+module "test5" {
+  source  = "spacelift.io/llama/spacelift-terraform/default"
+  version = "0.1.0"
+
+  
+  content = "hello"
+}
+
 module "test4" {
   source  = "spacelift.io/llama/spacelift-terraform/default"
   version = "0.1.0"
